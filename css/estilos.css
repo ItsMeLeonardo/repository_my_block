@@ -1,7 +1,9 @@
+.title, .paragraph, .container{
+    font-family: 'Times New Roman', Times, serif;
+}
 .title{
     color:deeppink;
     font-size: 2em;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .paragraph{
     color: rgb(21, 5, 39);
