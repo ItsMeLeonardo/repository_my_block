@@ -2,3 +2,5 @@ hola mi nombre carlos
 mi apellido cruces
 
 tambien hableremos de su historia en peru
+
+tambien de su desarrollo como frondEnd
