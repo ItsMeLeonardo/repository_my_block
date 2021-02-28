@@ -10,6 +10,8 @@ body, h2{
     text-align: center;
     padding: 1em 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.329);
+    display: flex;
+    justify-content: space-evenly;
 }
 .title{
     color:deeppink;
@@ -26,4 +28,26 @@ body, h2{
     margin: 1em auto;
     padding: .5em;
     width: 80vw;
+}
+.menu_main{
+    display: inherit;
+    align-items: center;
+}
+.menu_ol{
+    display: inherit;
+}
+.menu_li{
+    list-style: none;
+}
+.menu_link{
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: .5em 1em;
+    transition: .8s;
+}
+.menu_link:hover{
+    background-color: #311a8b;
+    color: deepskyblue;
+    text-align: center;
+    border-radius: .5em;
 }
