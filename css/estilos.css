@@ -51,6 +51,29 @@ body, h2{
     text-align: center;
     border-radius: .5em;
 }
-.logo{
-    width: 50px;
+.footer{
+    background-color: deeppink;
+    display: flex;
+}
+.footer_redes{
+    display: inherit;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.footer_li, .footer_link{
+    transition: .5s;
+}
+.footer_li{   
+    border-radius: .5em;
+    padding: .5em;
+    list-style: none;
+}
+.footer_link{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+.footer_li:hover, .footer_link:hover{
+    background-color: white;
+    color: deeppink;
 }
