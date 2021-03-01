@@ -2,7 +2,6 @@ body, h2{
     margin: 0;
     padding: 0;
 }
-
 .header{
     background-color: deepskyblue;
     color: white;
@@ -11,7 +10,6 @@ body, h2{
     padding: 1em 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.329);
     display: flex;
-    justify-content: space-evenly;
 }
 .title{
     color:deeppink;
@@ -32,6 +30,8 @@ body, h2{
 .menu_main{
     display: inherit;
     align-items: center;
+    width: 100%;
+    justify-content: space-around;
 }
 .menu_ol{
     display: inherit;
@@ -50,4 +50,7 @@ body, h2{
     color: deepskyblue;
     text-align: center;
     border-radius: .5em;
+}
+.logo{
+    width: 50px;
 }
